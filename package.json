@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chylaudes/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chylaudes/portfolio/issues"
+  },
+  "homepage": "https://github.com/chylaudes/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "2.12.5",
+    "del": "2.2.0",
+    "es6-promise": "^3.1.2",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-cssmin": "0.1.7",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "1.5.3",
+    "gulp-util": "3.0.7"
+  }
+}
