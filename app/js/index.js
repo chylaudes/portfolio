@@ -1,25 +1,47 @@
 $(document).ready(function(){
-  $('.parallax-window').parallax({imageSrc: '/images/grid.svg'})
-  $('.parallax-window1').parallax({imageSrc: '/images/typewriter.svg'})
-  // $(window).scroll(function(){
-  //     // The total height of the jumbotron
-  //     var scrollTop = $('.jumbotron').outerHeight(true);
-  //     // Total height of navbar
-  //     var navbar = $('.navbar').outerHeight(true);
-  //     // If the user scrolls down
-  //     if($(window).scrollTop() >= scrollTop) {
-  //       // Fix to top
-  //       $( ".navbar" ).addClass( "navbar-fixed-top" );
-  //       // And padding-top to the body so the content does not jump up
-  //       $("body").css("padding-top", navbar);
-  //     }
-  //     // If the user scrolls back up
-  //     if($(window).scrollTop() < scrollTop){
-  //       // Undo
-  //       $( ".navbar" ).removeClass( "navbar-fixed-top" );
-  //       $("body").css("padding-top","0px");
-  //     }
-  //   });
-  console.log("READY")
+  $('.parallax-window').parallax({imageSrc: 'images/gingham1.svg', naturalWidth: 2008, naturalHeight: 1267});
+  $('.parallax-window1').parallax({imageSrc: 'images/gingham1.svg', naturalWidth: 2008, naturalHeight: 1267});
+  $("#my-menu").mmenu({
+    "extensions": [
+     "pagedim-black", "theme-white"
+      ],
+    offCanvas: {
+               position  : "left",
+               zposition : "next"
+            }
+  });
+
+  //HAMBURGER MENU
+  var API = $("#my-menu").data("mmenu");
+  $('#hamburger').click(function(){
+    console.log("CLICKED");
+    API.open();
+  });
+
+$('nav li a').click(function(){
+  console.log("YOO");
+});
+//
+
+//SMOOTH SCROLL:
+$('a[href*="#"]:not([href="#"])').click(function() {
+   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+     var target = $(this.hash);
+     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     if (target.length) {
+       $('html, body').animate({
+         scrollTop: target.offset().top
+       }, 2000, function(){
+         API.close();
+       });
+       return false;
+     }
+   }
+ });
+
+
+
+console.log("READY");
+
 
 });

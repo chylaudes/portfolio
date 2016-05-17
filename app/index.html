@@ -5,34 +5,53 @@
   <title>CHYLAUDES</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.min.css" media="all">
+  <link href="css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
+
   <meta name ="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+  <nav id="my-menu">
+   <ul>
+      <li><a href="#welcome">WELCOME</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+   </ul>
+</nav>
+  <div class="my-wrapper">
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="parallax-window" data-parallax="scroll" data-image-src="images/grid.svg">
+  <div class="parallax-window">
     <div class="container-fluid">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-xs-12 center">
+        <div class="col-xs-12">
+          <a id="hamburger">
+             <span class="top-bar"></span>
+             <span class="middle-bar"></span>
+             <span class="bottom-bar"></span>
+          </a>
           <img class="logo-top" src="images/logo_top.svg">
-          <img class="menu" src="images/menu.svg">
-            <h1 class="headline">CHRISTINE LAU</h1>
-            <h3 class="subline">web developer</h3>
+          <div class="white">
+            <h1 class="headline center">CHRISTINE LAU</h1>
+            <h3 class="subline center">Full Stack Engineer</h3>
+            <p class="center">currently located in San Francisco</p>
+          </div>
+          <p class="arrow_text">WELCOME</p>
+          <img class="arrow" src="images/arrow_down.svg" alt="">
         </div>
       </div>
     </div> <!-- /container -->
-    <div class="triangle-down-right"></div>
   </div>
+
   <!--  end of parallax-window -->
+<section id="welcome" class="welcome">
 
   <div class="container">
     <!-- Example row of columns -->
-    <section class="welcome">
       <h3 class="subwelcome">welcome</h3>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-8">
-            <p>Selfies williamsburg 8-bit man bun, quinoa bitters selvage put a bird on it skateboard cronut 3 wolf moon asymmetrical ugh locavore. Church-key mustache swag, chillwave single-origin coffee readymade gastropub health goth vinyl letterpress mixtape helvetica. Selfies cardigan cornhole wayfarers. +1 tilde meditation, umami pinterest lomo chicharrones polaroid intelligentsia fap skateboard man braid. Next level chicharrones tousled pop-up, kogi 8-bit messenger bag keffiyeh VHS master cleanse kale chips. Raw denim bespoke try-hard venmo, tattooed hammock wolf irony portland offal asymmetrical. Farm-to-table tattooed everyday carry, meditation seitan meh paleo cardigan godard.</p>
+            <p>Christine here! And welcome to my site!  I am a full stack engineer who loves to design and code beautiful apps.  I have skills in Ruby on Rails, Angular.js, SQL Databases, Jquery, HTML, and CSS.</p>
           </div>
           <div class="col-sm-12 col-md-4">
             <p> Selfies williamsburg 8-bit man bun, quinoa bitters selvage put a bird on it skateboard cronut 3 wolf moon asymmetrical ugh locavore. Church-key mustache swag, chillwave single-origin coffee readymade gastropub health goth vinyl letterpress mixtape helvetica. Selfies cardigan cornhole wayfarers. +1 tilde meditation, umami pinterest lomo chicharrones polaroid intelligentsia fap skateboard man braid. Next level chicharrones tousled pop-up, kogi 8-bit messenger bag keffiyeh VHS master cleanse kale chips.</p>
@@ -40,87 +59,62 @@
         </div>
       </div>
       <img class="icon" src="images/diamond.svg" alt="">
-
-    </section> <!-- end of welcome section -->
   </div> <!-- /container -->
-  <div class="parallax-window1" data-parallax="scroll" data-image-src="images/typewriter.svg">
+</section> <!-- end of welcome section -->
+
+  <div class="parallax-window1">
     <div class="container-fluid no-pad">
       <img src="images/imageo.svg">
     </div>
   </div>
+  <section id="skills">
   <div class="container space-top">
+    <div class="row space-top grey">
+      <div class= "col-xs-12">
+        <h3>SKILLS</h3>
+        <p>Selfies williamsburg 8-bit man bun, quinoa bitters selvage put a bird on it skateboard cronut 3 wolf moon asymmetrical ugh locavore. Church-key mustache swag, chillwave single-origin coffee readymade gastropub health goth vinyl letterpress mixtape helvetica. Selfies cardigan cornhole wayfarers. +1 tilde meditation, umami pinterest lomo chicharrones polaroid intelligentsia fap skateboard man braid. Next level chicharrones tousled pop-up, kogi 8-bit messenger bag keffiyeh VHS master cleanse kale chips.</p>
+      </div>
+    </div>
+  </section>
     <!-- Example row of columns -->
-    <div class="row">
-    <div class="col-xs-12 center">
-      <img class="dahlia" src="images/dahlia.svg" alt="">
-    </div>
-  </div>
-    <div class="row">
-    <div class="col-xs-12 center">
-      <img class="recent" src="images/recent.svg" alt="">
-    </div>
-    </div>
-    <!-- First Project -->
-    <div class="row space-top">
-      <div class="col-md-8">
+    <section id="projects">
+      <div class="container space-top">
+        <div class="row">
+        <div class="col-xs-12">
+          <h2>RECENT PROJECTS</h2>
+          <hr>
+          <div class="black">
+          </div>
+          <div class="black">
+          </div>
+          <div class="black">
+          </div>
+        </div>
+      </div>
+      <div class="row space-top center">
         <div class="black">
         </div>
-      </div>
-      <div class="col-md-4">
-        <h3>The ONE</h3>
-        <div class="text">
-          The One App is a e-commerce platform for artists to sell one of a kind art pieces.  It is built on Ruby on Rails, Bootstrap, Jquery, HTML/CSS, using Devise User Gem, Stripe API, Redis, and SideKiq.
-        </div>
-      </div>
-    </div> <!--end of div row space-top -->
-    <!-- Second project -->
-    <div class="row space-top">
-      <div class="col-md-4">
-        <h3>Style Me App</h3>
-        <div class="text">
-          Selvage chicharrones heirloom, iPhone tofu chillwave before they sold out pabst bushwick church-key. Marfa forage pour-over chillwave biodiesel. Tacos waistcoat bitters small batch, viral chicharrones disrupt yuccie umami lumbersexual gentrify asymmetrical lomo meh. Chillwave gastropub lomo, meh mixtape poutine fanny pack farm-to-table art party 3 wolf moon disrupt jean shorts. Blue bottle small batch pabst, sartorial dreamcatcher fanny pack whatever. Quinoa cray leggings, whatever kale chips deep v pitchfork swag williamsburg retro hashtag freegan. Chartreuse gentrify irony narwhal.
-        </div>
-      </div>
-      <div class="col-md-8">
         <div class="black">
         </div>
-      </div>
-    </div> <!--end of div row space-top -->
-    <!-- Third project -->
-    <div class="row space-top">
-      <div class="col-md-8">
-        <div class="black">
-        </div>
-      </div>
-      <div class="col-md-4">
-        <h3>Friend's Jeopardy App</h3>
-        <div class="text">
-          Selvage chicharrones heirloom, iPhone tofu chillwave before they sold out pabst bushwick church-key. Marfa forage pour-over chillwave biodiesel. Tacos waistcoat bitters small batch, viral chicharrones disrupt yuccie umami lumbersexual gentrify asymmetrical lomo meh. Chillwave gastropub lomo, meh mixtape poutine fanny pack farm-to-table art party 3 wolf moon disrupt jean shorts. Blue bottle small batch pabst, sartorial dreamcatcher fanny pack whatever. Quinoa cray leggings, whatever kale chips deep v pitchfork swag williamsburg retro hashtag freegan. Chartreuse gentrify irony narwhal.
-        </div>
-      </div>
-    </div> <!--end of div row space-top -->
-    <!-- Fourth project -->
-    <div class="row space-top">
-      <div class="col-xs-12 center-pad">
-        <div class="black">
-        </div>
+      </div> <!--end of div row space-top -->
+    </div>
+    </section>
+    <div class="container">
+    <div class="row space-top grey">
+      <div class= "col-xs-12">
+        <h3>FOOTER</h3>
+        <p>has my information on linked in resume, other stuff</p>
+        <p>Selfies williamsburg 8-bit man bun, quinoa bitters selvage put a bird on it skateboard cronut 3 wolf moon asymmetrical ugh locavore. Church-key mustache swag, chillwave single-origin coffee readymade gastropub health goth vinyl letterpress mixtape helvetica. Selfies cardigan cornhole wayfarers. +1 tilde meditation, umami pinterest lomo chicharrones polaroid intelligentsia fap skateboard man braid. Next level chicharrones tousled pop-up, kogi 8-bit messenger bag keffiyeh VHS master cleanse kale chips.</p>
       </div>
     </div>
-    <div class="row center">
-      <div class="col-xs-12 center-pad">
-        <h3 class="center">Boutiq.travel</h3>
-        <p class="text center">
-          A traveling blogging app that only shows personal traveling reviews of their facebook friends' excursions.  It has a feed that showcases the latest review, and uses Google Map's API to retrieve information about each place the user is reviewing for.  Users of the app have the ability to comment their friend's reviews, add a favorite place to their likes page, and post a status for their friends to see.  I also added an admin platform for the client to visually see their data allocations.
-        </div>
-      </div>
-    </div> <!--end of div row space-top -->
   </div> <!-- /container -->
 
-
+</div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="js/parallax.min.js"></script>
+  <script src="js/jquery.mmenu.all.min.js" type="text/javascript"></script>
   <script src="js/index.min.js"></script>
 </body>
 </html>
