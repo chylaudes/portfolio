@@ -184,19 +184,22 @@ margin-bottom: 30px;
 }
 /*background-color: #A4C0FC;*/
 .arrow{
-  margin-top: 570px;
+  margin-top: 40px;
   width:80px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.arrow_text{
+
+#arrow_text{
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  margin-top:540px;
+  margin-top:520px;
+  text-decoration:none;
+  color: black;
   letter-spacing: 0.4em;
   font-style: bold;
 }
