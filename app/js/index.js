@@ -18,7 +18,6 @@ $(document).ready(function(){
     API.open();
   });
 
-//
 
 //UNDERSCORE TO INTERATE EACH MODAL WITH projectDATA
 _.each([0 , 1 , 2 , 3 , 4], function(el, i){
@@ -32,7 +31,7 @@ _.each([0 , 1 , 2 , 3 , 4], function(el, i){
   };
   $('#modal'+ i).animatedModal(modalOptions);
   var modalTemplate = _.template($('#modal-template').html());
-  var resultingModal = modalTemplate({project: projectData[i]});
+  var resultingModal = modalTemplate({projects: projectData, project: projectData[i]});
   $('#aModal'+i).append(resultingModal);
 });
 
@@ -53,8 +52,6 @@ $('.scrll').click(function(e) {
     }
   });
 
-
-console.log("READY");
-
+$('body').scrollTo('#my-wrapper');
 
 });//END OF document.ready
