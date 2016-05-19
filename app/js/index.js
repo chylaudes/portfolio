@@ -21,6 +21,14 @@ $(document).ready(function(){
 //
 var modalOptions = [
   {
+    modalTarget: "aModal0",
+    color: "#FFFFFF",
+    animatedIn: "bounceInUp",
+    animatedOut: "bounceOutDown",
+    animationDuration: "1s",
+    overflow: "scroll"
+  },
+  {
     modalTarget: "aModal1",
     color: "#FFFFFF",
     animatedIn: "bounceInUp",
@@ -51,24 +59,18 @@ var modalOptions = [
     animatedOut: "bounceOutDown",
     animationDuration: "1s",
     overflow: "scroll"
-  },
-  {
-    modalTarget: "aModal5",
-    color: "#FFFFFF",
-    animatedIn: "bounceInUp",
-    animatedOut: "bounceOutDown",
-    animationDuration: "1s",
-    overflow: "scroll"
   }
 
 ];
 
-
-$("#modal01").animatedModal(modalOptions[0]);
-$("#modal02").animatedModal(modalOptions[1]);
-$("#modal03").animatedModal(modalOptions[2]);
-$("#modal04").animatedModal(modalOptions[3]);
-$("#modal05").animatedModal(modalOptions[4]);
+//UNDERSCORE TO INTERATE EACH MODAL WITH projectDATA
+_.each(modalOptions, function(el, i){
+  console.log(el +"and "+ i);
+  $('#modal'+ i).animatedModal(el);
+  var modalTemplate = _.template($('#modal-template').html());
+  var resultingModal = modalTemplate({project: projectData[i]});
+  $('#aModal'+i).append(resultingModal);
+});
 
 
 //SMOOTH SCROLL:
@@ -79,7 +81,7 @@ $('.scrll').click(function(e) {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
-        }, 2000, function(){
+        }, 1500, function(){
           API.close();
         });
         return false;
@@ -87,8 +89,14 @@ $('.scrll').click(function(e) {
     }
   });
 
-
-
+//UNDERSCORE JS
+  // var artists = ['Pharrel Williams', 'Led Zeppelin', 'Rolling Stones'];
+  //
+  // _.each(artists, function(artist, index, artists) {
+  //   var el = document.createElement('p');
+  //   el.innerHTML = artist;
+  //   document.body.appendChild(el);
+  // });
 
 
 
