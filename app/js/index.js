@@ -19,54 +19,18 @@ $(document).ready(function(){
   });
 
 //
-var modalOptions = [
-  {
-    modalTarget: "aModal0",
-    color: "#FFFFFF",
-    animatedIn: "bounceInUp",
-    animatedOut: "bounceOutDown",
-    animationDuration: "1s",
-    overflow: "scroll"
-  },
-  {
-    modalTarget: "aModal1",
-    color: "#FFFFFF",
-    animatedIn: "bounceInUp",
-    animatedOut: "bounceOutDown",
-    animationDuration: "1s",
-    overflow: "scroll"
-  },
-  {
-    modalTarget: "aModal2",
-    color: "#FFFFFF",
-    animatedIn: "bounceInUp",
-    animatedOut: "bounceOutDown",
-    animationDuration: "1s",
-    overflow: "scroll"
-  },
-  {
-    modalTarget: "aModal3",
-    color: "#FFFFFF",
-    animatedIn: "bounceInUp",
-    animatedOut: "bounceOutDown",
-    animationDuration: "1s",
-    overflow: "scroll"
-  },
-  {
-    modalTarget: "aModal4",
-    color: "#FFFFFF",
-    animatedIn: "bounceInUp",
-    animatedOut: "bounceOutDown",
-    animationDuration: "1s",
-    overflow: "scroll"
-  }
-
-];
 
 //UNDERSCORE TO INTERATE EACH MODAL WITH projectDATA
-_.each(modalOptions, function(el, i){
-  console.log(el +"and "+ i);
-  $('#modal'+ i).animatedModal(el);
+_.each([0 , 1 , 2 , 3 , 4], function(el, i){
+  var modalOptions = {
+    modalTarget: "aModal" + i,
+    color: "#FFFFFF",
+    animatedIn: "bounceInUp",
+    animatedOut: "bounceOutDown",
+    animationDuration: "1s",
+    overflow: "scroll"
+  };
+  $('#modal'+ i).animatedModal(modalOptions);
   var modalTemplate = _.template($('#modal-template').html());
   var resultingModal = modalTemplate({project: projectData[i]});
   $('#aModal'+i).append(resultingModal);
@@ -88,16 +52,6 @@ $('.scrll').click(function(e) {
       }
     }
   });
-
-//UNDERSCORE JS
-  // var artists = ['Pharrel Williams', 'Led Zeppelin', 'Rolling Stones'];
-  //
-  // _.each(artists, function(artist, index, artists) {
-  //   var el = document.createElement('p');
-  //   el.innerHTML = artist;
-  //   document.body.appendChild(el);
-  // });
-
 
 
 console.log("READY");
