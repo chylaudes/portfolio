@@ -106,11 +106,11 @@
         </div>
         </a>
 
-      <a id="modal4" href="#aModal4">
-        <div class="black">
-        </div>
-      </a>
-    </div>
+        <a id="modal4" href="#aModal4">
+          <div class="black">
+          </div>
+        </a>
+      </div>
   </div>
     </section>
 
@@ -150,18 +150,16 @@
 </div>
 <!-- template for modals -->
 <script type="text/template" id="modal-template">
-  <div class="container">
+  <div class="container modal-space-body">
     <div class="row">
-      <h1><%= project.name %></h1>
-      <% if( project.currentProj ){ %>
-      <p> It's TRUE</p>
-      <% } else { %>
-      <p>It's FALSE</p>
-      <% }%>
       <div class="col-xs-12">
-        <div class="black"></div>
-        <div class="black"></div>
-        <div class="black"></div>
+        <h1><%= project.name %></h1>
+        <% if( project.currentProj ){ %>
+        <p> It's TRUE</p>
+        <% } else { %>
+        <p>It's FALSE</p>
+        <% }%>
+
       </div>
     </div>
   </div>

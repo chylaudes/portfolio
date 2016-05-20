@@ -268,3 +268,12 @@ html.mm-opened #hamburger span.middle-bar {
 
 
 /*MODAL STYLING*/
+.close-aModal0 img, .close-aModal1 img, .close-aModal2 img,
+.close-aModal3 img, .close-aModal4 img {
+  margin: 3%;
+}
+.modal-space-body{
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
