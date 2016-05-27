@@ -1,6 +1,8 @@
 var bt = "images/bt/";
 var style = "images/stylem/";
 var one = "images/oneApp/";
+var fj = "images/friendsJ/";
+var port = "images/port/";
 
 var projectData = [
   {
@@ -123,144 +125,65 @@ var projectData = [
     ],
   responsibilities: [],
   futureFeatures: []
-
-  },
+},// END OF ONEAPP OBJ
 
   {
     name: "Friends Jeopardy",
     github:"",
     website: "",
     currentProj: false,
-    coverImage: "",
+    coverImage: fj+"friendsJcover2.svg",
     images: [
       {
-        img: "",
+        img: fj+"friendsJ4.svg",
         size:"",
-        caption: "",
-        subCaption:"",
+        caption: "Friends Game Board",
+        subCaption:"Features include a game cards that reveal questions and answers.  Answered questions and current team's turn are highlighted.",
       },
       {
-        img: "",
+        img: fj+"friendsJ_1.svg",
         size:"",
-        caption: "",
-        subCaption:"",
+        caption: "Question Modal",
+        subCaption:"Each question has a Catagory and points, the question, and a time limit for the team to answer the question.  Some questions have videos to make the game more interactive.",
       },
       {
-        img: "",
+        img: fj+"friendsJ_2.svg",
         size:"",
-        caption: "",
-        subCaption:"",
+        caption: "Question Modal 2",
+        subCaption:"Another example of a question modal, but with the iconic scene of the female Friends in wedding dresses",
       },
       {
-        img: "",
+        img: fj+"friendsJ3.svg",
         size:"",
-        caption: "",
-        subCaption:"",
+        caption: "Answer Modal",
+        subCaption:"After a team has Answered the Question, the show Modal can subtract points or add points to a team.  The green adds points to the team and also dismisses the Modal",
       },
       {
-        img: "",
+        img: fj+"friends_cover3.svg",
         size:"",
-        caption: "",
-        subCaption:"",
+        caption: "Answer Modal 2",
+        subCaption:"Another example of answer Modal",
       },
       {
-        img: "",
+        img: fj+"friends_cover4.svg",
         size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
+        caption: "Winner Winner!",
+        subCaption:"At the end of the game, the web application will congradulate the winner of the game! YAY!",
       }
     ],
   responsibilities: [],
   futureFeatures: []
+  //ADD a before and After of Friends Jeopardy and Angular Friends Jeopardy
 
-  },
+},// END OF FriendsJeopardy
 
   {
     name: "Portfolio",
     github: "",
     website: "",
-    currentProj: false,
+    currentProj: true,
     coverImage: "",
-    images: [
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      },
-      {
-        img: "",
-        size:"",
-        caption: "",
-        subCaption:"",
-      }
-    ],
+    images: [],
     responsibilities: [],
     futureFeatures: []
 
