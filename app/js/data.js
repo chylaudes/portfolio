@@ -10,7 +10,7 @@ var projectData = [
     github: "",
     website: "",
     currentProj: false,
-    intro: "",
+    intro: "Hello World",
     coverImage: bt+"bt_cove.svg",
     images: [
       {
@@ -62,7 +62,7 @@ var projectData = [
     github: "",
     website:"",
     currentProj: true,
-    intro: "",
+    intro: "Hello World",
     coverImage: style + "stylem_imac1.svg",
     images: [
       {
@@ -97,7 +97,7 @@ var projectData = [
     github: "",
     website: "",
     currentProj: false,
-    intro: "",
+    intro: "Hello World",
     coverImage: one + "one_app_cover.svg",
     images: [
       {
@@ -135,7 +135,7 @@ var projectData = [
     github:"",
     website: "",
     currentProj: false,
-    intro: "",
+    intro: "Hello World",
     coverImage: fj+"friendsJcover2.svg",
     images: [
       {

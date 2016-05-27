@@ -157,7 +157,14 @@
         <% } else { %>
         <p>It's FALSE</p>
         <% }%>
-        <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <img src="<%= project.coverImage%>" alt="">
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <p><%= project.intro %></p>
+        </div>
+
+        <div class="col-xs-12">
           <% _.each(project.images, function(image){ %>
             <div class="cover1">
                <img src="<%= image.img %>" alt="">
