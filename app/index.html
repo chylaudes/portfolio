@@ -157,7 +157,13 @@
         <% } else { %>
         <p>It's FALSE</p>
         <% }%>
-
+        <div class="row">
+          <% _.each(project.images, function(image){ %>
+            <div class="cover1">
+               <img src="<%= image.img %>" alt="">
+            </div>
+          <%})%>
+        </div>
       </div>
     </div>
   </div>

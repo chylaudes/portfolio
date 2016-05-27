@@ -10,6 +10,7 @@ var projectData = [
     github: "",
     website: "",
     currentProj: false,
+    intro: "",
     coverImage: bt+"bt_cove.svg",
     images: [
       {
@@ -61,22 +62,23 @@ var projectData = [
     github: "",
     website:"",
     currentProj: true,
+    intro: "",
     coverImage: style + "stylem_imac1.svg",
     images: [
       {
-        img: style + "style_3.svg",
+        img: style + "stylem_3.svg",
         size:"",
         caption: "Styling Platform",
         subCaption: "Given the User's current location, we get the current temperature and get a randomized selection of clothes based on how hot or how cold it is.  The User gets to choose the items he/she can style",
       },
       {
-        img: style + "style_1.svg",
+        img: style + "stylem_1.svg",
         size:"",
         caption: "Style Page",
         subCaption:"Saving your outfits that you curated for each day. It shows the temperature, the date, and the pictures of the outfits you kept",
       },
       {
-        img: style + "style_2.svg",
+        img: style + "stylem_2.svg",
         size:"",
         caption: "Show Info",
         subCaption:"Gives you information on what brands and stores you can find these items",
@@ -95,6 +97,7 @@ var projectData = [
     github: "",
     website: "",
     currentProj: false,
+    intro: "",
     coverImage: one + "one_app_cover.svg",
     images: [
       {
@@ -132,6 +135,7 @@ var projectData = [
     github:"",
     website: "",
     currentProj: false,
+    intro: "",
     coverImage: fj+"friendsJcover2.svg",
     images: [
       {
@@ -147,7 +151,7 @@ var projectData = [
         subCaption:"Each question has a Catagory and points, the question, and a time limit for the team to answer the question.  Some questions have videos to make the game more interactive.",
       },
       {
-        img: fj+"friendsJ_2.svg",
+        img: fj+"friendsJ2.svg",
         size:"",
         caption: "Question Modal 2",
         subCaption:"Another example of a question modal, but with the iconic scene of the female Friends in wedding dresses",
@@ -182,6 +186,7 @@ var projectData = [
     github: "",
     website: "",
     currentProj: true,
+    intro: "",
     coverImage: "",
     images: [],
     responsibilities: [],
