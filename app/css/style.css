@@ -277,3 +277,16 @@ html.mm-opened #hamburger span.middle-bar {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+/*IMAGES COVER*/
+.cover1 {
+  width: 800px;
+  margin:20px;
+  margin-bottom: 20px;
+}
+
+.cover {
+  width: 500px;
+  margin:20px;
+  margin-bottom: 30px;
+}
