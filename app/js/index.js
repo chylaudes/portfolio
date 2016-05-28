@@ -52,6 +52,5 @@ $('.scrll').click(function(e) {
     }
   });
 
-$('body').scrollTo('#my-wrapper');
 
 });//END OF document.ready

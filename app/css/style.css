@@ -79,10 +79,13 @@ h3 {
   float: left;
 }
 .headline {
-margin-top: 60px;
+margin-top: 30px;
 margin-bottom: 30px;
 }
 
+.phead {
+  margin-top: -14px;
+}
 .center {
   text-align: center;
 }
@@ -289,4 +292,12 @@ html.mm-opened #hamburger span.middle-bar {
   width: 500px;
   margin:20px;
   margin-bottom: 30px;
+}
+
+.img_cover {
+  width: 500px;
+}
+
+.img_small {
+  width: 300px;
 }

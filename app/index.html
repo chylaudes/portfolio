@@ -33,13 +33,13 @@
              <span class="bottom-bar"></span>
           </a>
           <a href="index.html">
-          <img class="logo-top" src="images/logo_top.svg">
-        </a>
+            <img class="logo-top" src="images/logo_top.svg">
+          </a>
           <div class="white">
             <h1 class="headline center">CHRISTINE LAU</h1>
             <h3 class="subline center">Full Stack <br>Web Developer</h3>
             <br>
-            <p class="center">
+            <p class="phead center">
               currently located in
             <span class="typer" data-delay="200" data-words="San Francisco" data-colors="black"></span><span class="cursor" data-owner="first-typer"></span>
             </p>
@@ -52,20 +52,15 @@
     </div> <!-- /container -->
   </div>
   <!--  end of parallax-window -->
-<section id="welcome" class="welcome">
+<section id="welcome" class="welcome center">
   <div class="container">
     <!-- Example row of columns -->
-      <h3 class="subwelcome">welcome</h3>
-      <div class="container">
+    <h2>WELCOME</h2>
         <div class="row">
-          <div class="col-sm-12 col-md-8">
+          <div class="col-sm-12">
             <p>Christine here! And welcome to my site!  I am a full stack engineer who loves to design and code beautiful apps.  I have skills in Ruby on Rails, Angular.js, SQL Databases, Jquery, HTML, and CSS.</p>
           </div>
-          <div class="col-sm-12 col-md-4">
-            <p> Selfies williamsburg 8-bit man bun, quinoa bitters selvage put a bird on it skateboard cronut 3 wolf moon asymmetrical ugh locavore. Church-key mustache swag, chillwave single-origin coffee readymade gastropub health goth vinyl letterpress mixtape helvetica. Selfies cardigan cornhole wayfarers. +1 tilde meditation, umami pinterest lomo chicharrones polaroid intelligentsia fap skateboard man braid. Next level chicharrones tousled pop-up, kogi 8-bit messenger bag keffiyeh VHS master cleanse kale chips.</p>
-          </div>
         </div>
-      </div>
       <img class="icon" src="images/diamond.svg" alt="">
   </div> <!-- /container -->
 </section> <!-- end of welcome section -->
@@ -77,50 +72,49 @@
   </div>
   <section id="skills">
   <div class="container space-top">
-    <div class="row space-top grey">
-      <div class= "col-xs-12">
-        <h3>SKILLS</h3>
+    <div class="row space-top">
+      <div class= "col-xs-12 center">
+        <h2>SKILLS</h2>
         <p>Selfies williamsburg 8-bit man bun, quinoa bitters selvage put a bird on it skateboard cronut 3 wolf moon asymmetrical ugh locavore. Church-key mustache swag, chillwave single-origin coffee readymade gastropub health goth vinyl letterpress mixtape helvetica. Selfies cardigan cornhole wayfarers. +1 tilde meditation, umami pinterest lomo chicharrones polaroid intelligentsia fap skateboard man braid. Next level chicharrones tousled pop-up, kogi 8-bit messenger bag keffiyeh VHS master cleanse kale chips.</p>
       </div>
     </div>
   </div><!-- container space-top -->
   </section>
     <!-- Example row of columns -->
-    <section id="pro">
-        <div class="container">
+  <section id="pro">
+      <div class="container">
         <div class="col-xs-12 center">
           <h2>RECENT PROJECTS</h2>
-          <hr>
+
           <a id="modal0" href="#aModal0">
             <img class="cover1" src="images/bt/boutiq_travel_cover.svg" alt="">
           </a>
           <a id="modal1" href="#aModal1">
             <img class="cover" src="images/stylem/stylem_cover.png" alt="">
           </a>
-        <a id="modal2" href="#aModal2">
-          <img class="cover" src="images/oneApp/one_app_c1.png" alt="">
-        </a>
-        <a id="modal3" href="#aModal3">
-          <img class="cover1" src="images/friendsJ/friendsJcover.svg" alt="">
-        </a>
-
+          <a id="modal2" href="#aModal2">
+            <img class="cover" src="images/oneApp/one_app_c1.png" alt="">
+          </a>
+          <a id="modal3" href="#aModal3">
+            <img class="cover1" src="images/friendsJ/friendsJcover.svg" alt="">
+          </a>
         <a id="modal4" href="#aModal4">
           <div class="black">
           </div>
         </a>
       </div>
   </div>
-    </section>
+</section>
 
-<div class="container">
-  <div class="row space-top grey">
-    <div class= "col-xs-12">
-        <h3>FOOTER</h3>
-        <p>has my information on linked in resume, other stuff</p>
-        <p>Selfies williamsburg 8-bit man bun, quinoa bitters selvage put a bird on it skateboard cronut 3 wolf moon asymmetrical ugh locavore. Church-key mustache swag, chillwave single-origin coffee readymade gastropub health goth vinyl letterpress mixtape helvetica. Selfies cardigan cornhole wayfarers. +1 tilde meditation, umami pinterest lomo chicharrones polaroid intelligentsia fap skateboard man braid. Next level chicharrones tousled pop-up, kogi 8-bit messenger bag keffiyeh VHS master cleanse kale chips.</p>
+  <div class="container">
+    <div class="row space-top grey">
+      <div class= "col-xs-12">
+          <h3>FOOTER</h3>
+          <p>has my information on linked in resume, other stuff</p>
+          <p>Selfies williamsburg 8-bit man bun, quinoa bitters selvage put a bird on it skateboard cronut 3 wolf moon asymmetrical ugh locavore. Church-key mustache swag, chillwave single-origin coffee readymade gastropub health goth vinyl letterpress mixtape helvetica. Selfies cardigan cornhole wayfarers. +1 tilde meditation, umami pinterest lomo chicharrones polaroid intelligentsia fap skateboard man braid. Next level chicharrones tousled pop-up, kogi 8-bit messenger bag keffiyeh VHS master cleanse kale chips.</p>
+      </div>
     </div>
-  </div>
-</div> <!-- /container -->
+  </div> <!-- /container -->
 </div>
 <!--MODAL0-->
 <div id="aModal0">
@@ -157,18 +151,15 @@
         <% } else { %>
         <p>It's FALSE</p>
         <% }%>
-        <div class="col-xs-12 col-md-4">
-          <img src="<%= project.coverImage%>" alt="">
+        <div class="col-xs-12 col-md-6">
+          <img class="img_cover" src="<%= project.coverImage%>" alt="">
         </div>
         <div class="col-xs-12 col-md-4">
           <p><%= project.intro %></p>
         </div>
-
         <div class="col-xs-12">
           <% _.each(project.images, function(image){ %>
-            <div class="cover1">
-               <img src="<%= image.img %>" alt="">
-            </div>
+               <img class="img_small" src="<%= image.img %>" alt="">
           <%})%>
         </div>
       </div>

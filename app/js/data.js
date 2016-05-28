@@ -32,7 +32,7 @@ var projectData = [
         subCaption: "Posting a review for all your friends to see.  Includes GoogleMaps Autocomplete, and GoogleMaps Api to find all the Places you want to review for your travels.",
       },
       {
-        img: bt+"bt_iphone4_profile_bg.svg",
+        img: bt+"bt_iphone4_profile.svg",
         size:"",
         caption: "User's Profile Page",
         subCaption:"Profile Page that includes all your reviews, ordered by the Latest review.  Your facebook friends can also post a comment on the Review you posted.",
@@ -53,8 +53,6 @@ var projectData = [
     ],
   responsibilities: [],
   futureFeatures: []
-
-
   }, // End of Boutiq.travel
 
   {
@@ -66,24 +64,29 @@ var projectData = [
     coverImage: style + "stylem_imac1.svg",
     images: [
       {
-        img: style + "stylem_3.svg",
+        img: style + "style_female.jpg",
         size:"",
         caption: "Styling Platform",
-        subCaption: "Given the User's current location, we get the current temperature and get a randomized selection of clothes based on how hot or how cold it is.  The User gets to choose the items he/she can style",
+        subCaption: "Given the User's current location, we get the current temperature and get a randomized selection of clothes based on how hot or how cold it is.  The User gets to choose the items she can style",
       },
       {
-        img: style + "stylem_1.svg",
+        img: style + "style_men1.jpg",
         size:"",
-        caption: "Style Page",
-        subCaption:"Saving your outfits that you curated for each day. It shows the temperature, the date, and the pictures of the outfits you kept",
+        caption: "Style Page for Men",
+        subCaption:"We also designed an algorithm to curate outfits with the latest men styles",
       },
       {
-        img: style + "stylem_2.svg",
+        img: style + "style_1.jpg",
+        size:"",
+        caption: "Styled Outfits",
+        subCaption:"Saving your outfits that you curated for each day, this page shows the temperature, the date, and the pictures of the outfits you kept",
+      },
+      {
+        img: style + "styleme_1.svg",
         size:"",
         caption: "Show Info",
-        subCaption:"Gives you information on what brands and stores you can find these items",
+        subCaption:"Clicking on the button will gives you information on what brands and stores you can find these items",
       },
-      //Want to add Men's style also.
     ],
     responsibilities: [],
     futureFeatures: []
@@ -93,7 +96,7 @@ var projectData = [
   }, // End of StyleMe
 
   {
-    name: "The ONE APP",
+    name: "ONE APP",
     github: "",
     website: "",
     currentProj: false,
@@ -101,7 +104,7 @@ var projectData = [
     coverImage: one + "one_app_cover.svg",
     images: [
       {
-        img: one+"one_app_full.svg",
+        img: one+"one_app_full.jpg",
         size:"full",
         caption: "By Catagory or Artist",
         subCaption:"The Artwork is catagorized by Medium, or by the Artist themselves.  Here we have it organized by Illustration",
@@ -119,12 +122,17 @@ var projectData = [
         subCaption:"The Collection feature was built to save a user's favorites and admire the pieces that the love.  They can remove it by hovering a piece and pressing the remove button.",
       },
       {
-        img: one + "one_app_1.svg",
+        img: one + "one_app_2.svg",
         size: "half",
         caption: "Shopping Cart",
+        subCaption: "Shopping cart for all purchases",
+      },
+      {
+        img: one + "one_app_1.svg",
+        size: "half",
+        caption: "Stripe API",
         subCaption: "Buying a piece(s) has never been easier!  Add the pieces into your cart and the Stripe API will check each customer out.",
       }
-//One more pic of the shopping cart in the imac feature
     ],
   responsibilities: [],
   futureFeatures: []
@@ -139,10 +147,16 @@ var projectData = [
     coverImage: fj+"friendsJcover2.svg",
     images: [
       {
+        img: fj+"old.png",
+        size:"",
+        caption: "Friends Jeopardy 1.0",
+        subCaption:"The older version of the game and with only HTML/CSS/Bootstrap/jquery.",
+      },
+      {
         img: fj+"friendsJ4.svg",
         size:"",
         caption: "Friends Game Board",
-        subCaption:"Features include a game cards that reveal questions and answers.  Answered questions and current team's turn are highlighted.",
+        subCaption:"New remake with using the front-end framework, Angular.js. Features include a game cards that reveal questions and answers.  Answered questions and current team's turn are highlighted.",
       },
       {
         img: fj+"friendsJ_1.svg",
