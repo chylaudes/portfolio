@@ -132,7 +132,7 @@ var projectData = [
         subCaption: "Buying a piece(s) has never been easier!  Add the pieces into your cart and the Stripe API will check each customer out.",
       }
     ],
-  responsibilities: [],
+  responsibilities: ["Integrated the Stripe API into the web application","Programmed the Front-end from a design from the designer", "Built out the `Add to Collection` feature and the space to store the user's collection", "Collaborated with 3 other developers using the git workflow"],
   futureFeatures: []
 },// END OF ONEAPP OBJ
 
@@ -141,7 +141,7 @@ var projectData = [
     github:"https://github.com/chylaudes/friendsAngular",
     website: "http://chylaudes.github.io/angularFriends/",
     currentProj: false,
-    intro: "Hello World",
+    intro: " A Jeopardy game that quizzes teams on how well they know the TV Show Friends.  It's made to be projected on a screen with a game show host to coordinate the scores of the teams.  The static website was first built on HTML5/CSS/JS, but I refactored it with Angular.js.",
     coverImage: fj+"friendsJcover2.svg",
     images: [
       {
@@ -187,10 +187,9 @@ var projectData = [
         subCaption:"At the end of the game, the web application will congradulate the winner of the game! YAY!",
       }
     ],
-  responsibilities: [],
+  responsibilities: ["Use of controllers, dependicies, directives, services, and $scope.$watch to watch the scores change as the game progresses",
+  "Designed and programmed the front-end to look like Cards of Humanity", "Has Youtube videos that feature iconic scenes from the tv show", "Used the gulp.js for the front-end workflow, as well as compressing and minifying code"],
   futureFeatures: []
-  //ADD a before and After of Friends Jeopardy and Angular Friends Jeopardy
-
 },// END OF FriendsJeopardy
 
   {
