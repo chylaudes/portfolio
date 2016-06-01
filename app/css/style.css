@@ -31,16 +31,23 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
   letter-spacing: 0.4em;
+  text-transform:uppercase;
   font-family: "Pier Sans Bold";
+}
+img.icon {
+  width:32px;
+  float: left;
 }
 h3 {
   font-family: "Pier Sans Bold Italic";
   letter-spacing: 0.2em;
   font-size: 56px;
 }
-
+li {
+list-style: none;
+}
 
 /* So there isn't a space btwn navbar and jumbotron */
 .parallax-window {
@@ -300,4 +307,20 @@ html.mm-opened #hamburger span.middle-bar {
 
 .img_small {
   width: 300px;
+}
+
+.add-mb {
+  margin-bottom: 40px;
+}
+.list {
+  font-size: 18px;
+  margin-top: 6px;
+  letter-spacing: 0.2em;
+}
+.skills {
+  padding-left: 60px;
+  margin-bottom: 40px;
+}
+#skills {
+  margin-bottom: 60px;
 }

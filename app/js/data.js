@@ -8,9 +8,9 @@ var projectData = [
   {
     name: "Boutiq.travel",
     github: "",
-    website: "",
+    website: "https://boutiq-travel.herokuapp.com/",
     currentProj: false,
-    intro: "Hello World",
+    intro: "Boutiq.Travel is a ROR web application that allows a user to write a review of all the traveling destinations he/she has been to.  I was the sole developer of the application, and architected the database.  The application has a news feed that retrieves the latest reviews from your Facebook Friends and uses the Google Places library to find the places they've reviewed.  The application can filter your friends' reviews through tags, and can save your favorite places to check out later.",
     coverImage: bt+"bt_cove.svg",
     images: [
       {
@@ -51,16 +51,16 @@ var projectData = [
       },
 //Add the Place Profile page, and the Likes feature
     ],
-  responsibilities: [],
+  responsibilities: ["Sole Full Stack Engineer of the Application, and worked with a Senior Dev to pair program with to best optimize the code base", "Programmed the front-end and the application's mobile-responsiveness, using jquery, bootstrap, css, and ajax", "Responsible for developing Facebook authentication feature, the forms using the Google Maps Library, the Likes feature, and the news feed", "Configured the admin interface using the RailsAdmin gem"],
   futureFeatures: []
   }, // End of Boutiq.travel
 
   {
     name: "Style Me",
-    github: "",
-    website:"",
+    github: "https://github.com/chylaudes/StyleMe",
+    website:"https://stylem.herokuapp.com/",
     currentProj: true,
-    intro: "Hello World",
+    intro: "Style Me is a Ruby on Rails application that combines a weather API and a Shopping API to populate suggested clothing items based on the temperature and user’s gender. I collaborated with a partner to build a platform where a user can style their outfits and record their past outfits.",
     coverImage: style + "stylem_imac1.svg",
     images: [
       {
@@ -88,19 +88,17 @@ var projectData = [
         subCaption:"Clicking on the button will gives you information on what brands and stores you can find these items",
       },
     ],
-    responsibilities: [],
-    futureFeatures: []
-    //Add that you would want the images to click to the store name
-    //Add that you would want to update the algorithm
-    //add that you would want to turn it into a Rangular App
+    responsibilities: ["Designed and programmed the front-end, and the user flow of the application", "Helped draw out the algorithm to append the right clothes for different weather conditions", "Responsible for the Authentication and Authorization of the application with the Devise User gem."],
+    futureFeatures: ["Optimize the algorithm, so it isn't a bunch of `if` and `else` statements", "Update the algorithm with better keywords to get the latest styles", "Change it from a Rails Application into a Rangular application", "Fixed the links to directly go to the store of the product that has been clicked on", "Add an outerwear style"]
+
   }, // End of StyleMe
 
   {
     name: "ONE APP",
-    github: "",
-    website: "",
+    github: "https://github.com/chylaudes/OneApp",
+    website: "https://calm-sea-3644.herokuapp.com/",
     currentProj: false,
-    intro: "Hello World",
+    intro: "The One App is a Ruby on Rails web application that sells one-of-a-kind art pieces to its exclusive customers.  The e-commerce store has gorgeous art pieces,  that is categorized by artist or by medium.  The artwork is bought with using the Stripe API, and the Redis database to time the checkout operation.  The website also has a place to collect pieces that they love, so they can admire later.",
     coverImage: one + "one_app_cover.svg",
     images: [
       {
@@ -140,8 +138,8 @@ var projectData = [
 
   {
     name: "Friends Jeopardy",
-    github:"",
-    website: "",
+    github:"https://github.com/chylaudes/friendsAngular",
+    website: "http://chylaudes.github.io/angularFriends/",
     currentProj: false,
     intro: "Hello World",
     coverImage: fj+"friendsJcover2.svg",
