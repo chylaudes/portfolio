@@ -305,12 +305,79 @@ html.mm-opened #hamburger span.middle-bar {
   width: 500px;
 }
 
+.img_cover-st {
+  width: 1000px;
+  margin-bottom:40px;
+  display:block;
+}
+
 .img_small {
   width: 300px;
+  margin-bottom: 30px;
+}
+
+.img_med {
+  width: 650px;
+  margin-right:30px;
+
+}
+.img_med-fl {
+  width: 650px;
+  float:right;
+  margin-left:30px;
+}
+
+.img_med-fl:after{
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.caption-bt {
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  text-transform:uppercase;
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 48%;
+}
+.caption-fj {
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  text-transform:uppercase;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+.caption-st {
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  text-transform:uppercase;
+  margin-bottom: 92px;
+
+}
+.caption-text{
+  width: 300px;
+  text-align:center;
+  display:inline-block;
+}
+.sub-caption {
+  font-size: 11px;
+  text-transform:none;
 }
 
 .add-mb {
   margin-bottom: 40px;
+}
+
+.images-section {
+  margin-top: 50px;
+  padding-top:20px;
 }
 .list {
   font-size: 18px;
@@ -323,4 +390,10 @@ html.mm-opened #hamburger span.middle-bar {
 }
 #skills {
   margin-bottom: 60px;
+}
+.respond li{
+  list-style-type: disc;
+}
+.clearfix:after{
+  clear:both
 }

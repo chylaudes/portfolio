@@ -15,44 +15,52 @@ var projectData = [
     images: [
       {
         img: bt+"bt_iphone_home.svg",
-        size:"",
+        size:"img_small",
+        captionDiv:"caption-bt",
         caption: "Home Page",
         subCaption: "Landing Page for Boutiq.Travel.  One click to Log in to Facebook Authentication",
       },
       {
         img: bt+"bt_iphone2.svg",
-        size:"",
+        size:"img_small",
+        captionDiv:"caption-bt",
         caption:"New Feed",
         subCaption:"New Feed has the latest reviews of your friends from Facebook. Instagram-like functionality.  You can like each review that has been posted",
       },
       {
         img: bt+"bt_iphone3.svg",
-        size:"",
+        size:"img_small",
+        captionDiv:"caption-bt",
         caption: "Post A Review Form",
         subCaption: "Posting a review for all your friends to see.  Includes GoogleMaps Autocomplete, and GoogleMaps Api to find all the Places you want to review for your travels.",
       },
       {
         img: bt+"bt_iphone4_profile.svg",
-        size:"",
+        size:"img_small",
+        captionDiv:"caption-bt",
         caption: "User's Profile Page",
         subCaption:"Profile Page that includes all your reviews, ordered by the Latest review.  Your facebook friends can also post a comment on the Review you posted.",
       },
       {
         img: bt+"bt_iphone5_search.svg",
-        size:"",
+        size:"img_small",
+        captionDiv:"caption-bt",
         caption: "Searching for Places to check on?",
         subCaption:"When you're traveling to a particular place, search for it and filter the results by TAGs; Where to Eat/ Drink/ Sleep/ Do.",
       },
       {
         img: bt+"bt_search_iphone.svg",
-        size:"",
+        size:"img_small",
+        captionDiv:"caption-bt",
         caption: "Filtered!",
         subCaption:"Filtered by the 'Eat' tag, and how many reviews your friends already Reviewed",
       },
 //Add the Place Profile page, and the Likes feature
     ],
   responsibilities: ["Sole Full Stack Engineer of the Application, and worked with a Senior Dev to pair program with to best optimize the code base", "Programmed the front-end and the application's mobile-responsiveness, using jquery, bootstrap, css, and ajax", "Responsible for developing Facebook authentication feature, the forms using the Google Maps Library, the Likes feature, and the news feed", "Configured the admin interface using the RailsAdmin gem"],
-  futureFeatures: []
+  futureFeatures: [],
+  technologies: [],
+  api: []
   }, // End of Boutiq.travel
 
   {
@@ -65,25 +73,29 @@ var projectData = [
     images: [
       {
         img: style + "style_female.jpg",
-        size:"",
+        size:"img_cover-st",
+        captionDiv:"caption-st",
         caption: "Styling Platform",
         subCaption: "Given the User's current location, we get the current temperature and get a randomized selection of clothes based on how hot or how cold it is.  The User gets to choose the items she can style",
       },
       {
         img: style + "style_men1.jpg",
-        size:"",
+        size:"img_cover-st",
+        captionDiv:"caption-st",
         caption: "Style Page for Men",
         subCaption:"We also designed an algorithm to curate outfits with the latest men styles",
       },
       {
-        img: style + "style_1.jpg",
-        size:"",
+        img: style + "style_1.svg",
+        size:"img_cover-st",
+        captionDiv:"caption-st",
         caption: "Styled Outfits",
         subCaption:"Saving your outfits that you curated for each day, this page shows the temperature, the date, and the pictures of the outfits you kept",
       },
       {
         img: style + "styleme_1.svg",
-        size:"",
+        size:"img_cover-st",
+        captionDiv:"caption-st",
         caption: "Show Info",
         subCaption:"Clicking on the button will gives you information on what brands and stores you can find these items",
       },
@@ -103,37 +115,44 @@ var projectData = [
     images: [
       {
         img: one+"one_app_full.jpg",
-        size:"full",
+        size:"img_cover-st",
+        captionDiv:"caption-st",
         caption: "By Catagory or Artist",
         subCaption:"The Artwork is catagorized by Medium, or by the Artist themselves.  Here we have it organized by Illustration",
       },
       {
         img: one+"one_app_full2.svg",
-        size:"full",
+        size:"img_cover-st",
+        captionDiv:"caption-st",
         caption: "Art Piece",
         subCaption:"Each piece of art can be added your cart and be added to your collection.",
       },
       {
         img: one+"one_app_full3.svg",
-        size:"full",
+        size:"img_cover-st",
+        captionDiv:"caption-st",
         caption: "Collection",
         subCaption:"The Collection feature was built to save a user's favorites and admire the pieces that the love.  They can remove it by hovering a piece and pressing the remove button.",
       },
       {
         img: one + "one_app_2.svg",
-        size: "half",
+        size: "img_cover-st",
+        captionDiv:"caption-st",
         caption: "Shopping Cart",
         subCaption: "Shopping cart for all purchases",
       },
       {
         img: one + "one_app_1.svg",
-        size: "half",
+        size: "img_cover-st",
+        captionDiv:"caption-st",
         caption: "Stripe API",
         subCaption: "Buying a piece(s) has never been easier!  Add the pieces into your cart and the Stripe API will check each customer out.",
       }
     ],
   responsibilities: ["Integrated the Stripe API into the web application","Programmed the Front-end from a design from the designer", "Built out the `Add to Collection` feature and the space to store the user's collection", "Collaborated with 3 other developers using the git workflow"],
-  futureFeatures: []
+  futureFeatures: [],
+  technologies: [],
+  api: []
 },// END OF ONEAPP OBJ
 
   {
@@ -146,50 +165,59 @@ var projectData = [
     images: [
       {
         img: fj+"old.png",
-        size:"",
+        size:"img_med",
+        captionDiv:"caption-fj",
         caption: "Friends Jeopardy 1.0",
         subCaption:"The older version of the game and with only HTML/CSS/Bootstrap/jquery.",
       },
       {
         img: fj+"friendsJ4.svg",
-        size:"",
+        size:"img_med-fl",
+        captionDiv:"caption-fj",
         caption: "Friends Game Board",
         subCaption:"New remake with using the front-end framework, Angular.js. Features include a game cards that reveal questions and answers.  Answered questions and current team's turn are highlighted.",
       },
       {
         img: fj+"friendsJ_1.svg",
-        size:"",
+        size:"img_med",
+        captionDiv:"caption-fj",
         caption: "Question Modal",
         subCaption:"Each question has a Catagory and points, the question, and a time limit for the team to answer the question.  Some questions have videos to make the game more interactive.",
       },
       {
         img: fj+"friendsJ2.svg",
-        size:"",
+        size:"img_med-fl",
+        captionDiv:"caption-fj",
         caption: "Question Modal 2",
         subCaption:"Another example of a question modal, but with the iconic scene of the female Friends in wedding dresses",
       },
       {
         img: fj+"friendsJ3.svg",
-        size:"",
+        size:"img_med",
+        captionDiv:"caption-fj",
         caption: "Answer Modal",
         subCaption:"After a team has Answered the Question, the show Modal can subtract points or add points to a team.  The green adds points to the team and also dismisses the Modal",
       },
       {
         img: fj+"friends_cover3.svg",
-        size:"",
+        size:"img_med-fl",
+        captionDiv:"caption-fj",
         caption: "Answer Modal 2",
         subCaption:"Another example of answer Modal",
       },
       {
         img: fj+"friends_cover4.svg",
-        size:"",
+        size:"img_cover-st",
+        captionDiv:"caption-st",
         caption: "Winner Winner!",
         subCaption:"At the end of the game, the web application will congradulate the winner of the game! YAY!",
       }
     ],
   responsibilities: ["Use of controllers, dependicies, directives, services, and $scope.$watch to watch the scores change as the game progresses",
   "Designed and programmed the front-end to look like Cards of Humanity", "Has Youtube videos that feature iconic scenes from the tv show", "Used the gulp.js for the front-end workflow, as well as compressing and minifying code"],
-  futureFeatures: []
+  futureFeatures: [],
+  technologies: [],
+  api: []
 },// END OF FriendsJeopardy
 
   {
@@ -201,7 +229,9 @@ var projectData = [
     coverImage: "",
     images: [],
     responsibilities: [],
-    futureFeatures: []
+    futureFeatures: [],
+    technologies: [],
+    api: []
 
   }
 ];// end of projectData
