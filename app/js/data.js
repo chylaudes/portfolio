@@ -9,7 +9,7 @@ var projectData = [
     name: "Boutiq.travel",
     github: "",
     website: "https://boutiq-travel.herokuapp.com/",
-    currentProj: false,
+    currentProj: true,
     intro: "Boutiq.Travel is a ROR web application that allows a user to write a review of all the traveling destinations he/she has been to.  I was the sole developer of the application, and architected the database.  The application has a news feed that retrieves the latest reviews from your Facebook Friends and uses the Google Places library to find the places they've reviewed.  The application can filter your friends' reviews through tags, and can save your favorite places to check out later.",
     coverImage: bt+"bt_cove.svg",
     images: [
@@ -59,8 +59,8 @@ var projectData = [
     ],
   responsibilities: ["Sole Full Stack Engineer of the Application, and worked with a Senior Dev to pair program with to best optimize the code base", "Programmed the front-end and the application's mobile-responsiveness, using jquery, bootstrap, css, and ajax", "Responsible for developing Facebook authentication feature, the forms using the Google Maps Library, the Likes feature, and the news feed", "Configured the admin interface using the RailsAdmin gem"],
   futureFeatures: [],
-  technologies: [],
-  api: []
+  technologies: ["Ruby on Rails", "JQUERY", "HTML5", "CSS", "AJAX", "SVG", "Bootstrap", "PostgreSQL", "Heroku"],
+  api: ["Google Maps", "Facebook", "RailsAdmin"]
   }, // End of Boutiq.travel
 
   {
@@ -101,8 +101,9 @@ var projectData = [
       },
     ],
     responsibilities: ["Designed and programmed the front-end, and the user flow of the application", "Helped draw out the algorithm to append the right clothes for different weather conditions", "Responsible for the Authentication and Authorization of the application with the Devise User gem."],
-    futureFeatures: ["Optimize the algorithm, so it isn't a bunch of `if` and `else` statements", "Update the algorithm with better keywords to get the latest styles", "Change it from a Rails Application into a Rangular application", "Fixed the links to directly go to the store of the product that has been clicked on", "Add an outerwear style"]
-
+    futureFeatures: ["Optimize the algorithm, so it isn't a bunch of `if` and `else` statements", "Update the algorithm with better keywords to get the latest styles", "Change it from a Rails Application into a Rangular application", "Fixed the links to directly go to the store of the product that has been clicked on", "Add an outerwear style"],
+    technologies: ["Ruby on Rails", "JQUERY", "HTML5", "CSS", "AJAX", "Bootstrap", "PostgreSQL", "Heroku"],
+    api: ["Google Maps", "ShopSense", "wunderground", "Devise User"]
   }, // End of StyleMe
 
   {
@@ -151,8 +152,8 @@ var projectData = [
     ],
   responsibilities: ["Integrated the Stripe API into the web application","Programmed the Front-end from a design from the designer", "Built out the `Add to Collection` feature and the space to store the user's collection", "Collaborated with 3 other developers using the git workflow"],
   futureFeatures: [],
-  technologies: [],
-  api: []
+  technologies: ["Ruby on Rails", "JQUERY", "HTML5", "CSS", "AJAX", "Bootstrap", "PostgreSQL", "Heroku"],
+  api: ["Stripe API", "Redis", "Devise User"]
 },// END OF ONEAPP OBJ
 
   {
@@ -216,7 +217,7 @@ var projectData = [
   responsibilities: ["Use of controllers, dependicies, directives, services, and $scope.$watch to watch the scores change as the game progresses",
   "Designed and programmed the front-end to look like Cards of Humanity", "Has Youtube videos that feature iconic scenes from the tv show", "Used the gulp.js for the front-end workflow, as well as compressing and minifying code"],
   futureFeatures: [],
-  technologies: [],
+  technologies: ["Angular.js", "Underscore.js", "Javascript", "HTML5", "CSS", "Bootstrap", "Gulp"],
   api: []
 },// END OF FriendsJeopardy
 

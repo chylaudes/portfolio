@@ -28,6 +28,7 @@ h1 {
   font-size: 40px;
   letter-spacing: 0.4em;
   font-family: "Pier Sans Bold";
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -43,7 +44,13 @@ img.icon {
 h3 {
   font-family: "Pier Sans Bold Italic";
   letter-spacing: 0.2em;
-  font-size: 56px;
+  font-size: 44px;
+}
+h4 {
+  font-family: "Pier Sans Bold Italic";
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 li {
 list-style: none;
@@ -104,29 +111,42 @@ margin-bottom: 30px;
   margin-top: 60px;
 }
 
-/*Down-right pointing*/
-.triangle-down-right {
-    width: 10%;
-    height: 0;
-    padding-top: 10%;
-    overflow: hidden;
-}
-.triangle-down-right:after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-top:-100px;
-    border-top: 100px solid transparent;
-    border-right: 100px solid #FFF;
-    position:absolute;
-    bottom: 28px;
-    right:0;
-}
+
 .welcome {
   background-color:white;
-  height:500px;
+  height:900px;
   padding-top: 30px;
+}
+
+.diamond {
+  display: inline;
+  width:20px;
+  margin-bottom: 20px;
+  width: 23px;
+  margin-right: 18px;
+}
+
+}
+.profile {
+  width:200px;
+  text-align:center;
+}
+.header-welcome {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  display:inline-block;
+}
+.header-block {
+  display:block;
+}
+
+.square-pad {
+  padding:55px;
+}
+
+.square-pad > h4{
+  margin-bottom: 20px;
 }
 .image-overlay {
   background-image: url("../images/imageo.svg");
@@ -283,7 +303,6 @@ html.mm-opened #hamburger span.middle-bar {
   margin: 3%;
 }
 .modal-space-body{
-  padding-top: 50px;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -292,13 +311,13 @@ html.mm-opened #hamburger span.middle-bar {
 .cover1 {
   width: 800px;
   margin:20px;
-  margin-bottom: 20px;
+  margin-bottom: 150px;
 }
 
 .cover {
   width: 500px;
   margin:20px;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
 }
 
 .img_cover {
@@ -388,12 +407,115 @@ html.mm-opened #hamburger span.middle-bar {
   padding-left: 60px;
   margin-bottom: 40px;
 }
-#skills {
-  margin-bottom: 60px;
+.header-skills {
+  margin-bottom:70px;
+  display:inline-block;
+  font-size: 40px;
 }
+#skills {
+  margin-bottom: 200px;
+}
+
 .respond li{
   list-style-type: disc;
 }
+.center-col {
+  padding-left: 4%;
+}
 .clearfix:after{
   clear:both
+}
+.header-rp {
+  font-size:35px;
+  margin-bottom: 40px;
+}
+.responsibilities {
+  margin-top:40px;
+}
+
+p.intro::first-letter {
+  font-size: 24px;
+  font-family: "Pier Sans Bold";
+}
+.github {
+  display: block;
+  width: 120px;
+  height: 30px;
+  background: #B67EAE;
+  padding: 15px;
+  padding-top: 8px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.github:hover {
+  color: white;
+  text-decoration: none;
+  background: #91638C;
+}
+.website {
+  display: block;
+  width: 120px;
+  height: 30px;
+  background: #4FE3C1;
+  padding: 15px;
+  padding-top: 8px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.website:hover {
+  color: white;
+  text-decoration: none;
+  background: #50AA95;
+
+}
+.github:visited, .website:visited {
+  color: white;
+  text-decoration: none;
+}
+ul.tech, ul.api {
+  padding-left:0px;
+}
+.tech > li {
+  display: inline-block;
+  height: 26px;
+  background: #FF3366;
+  text-align: center;
+  padding: 6px;
+  margin: 2px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.api > li {
+  display: inline-block;
+  height: 26px;
+  background: #4354D1;
+  text-align: center;
+  padding: 6px;
+  margin: 2px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+.current {
+  display: inline-block;
+  height: 26px;
+  background: #D14351;
+  text-align: center;
+  padding: 6px;
+  margin: 2px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  float: right;
+  margin: 40px;
 }
