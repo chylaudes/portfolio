@@ -519,3 +519,20 @@ ul.tech, ul.api {
   float: right;
   margin: 40px;
 }
+.hvr-float, .img_small, .img_med, .img_med-fl {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active,
+.img_med-fl:hover, .img_med-fl:focus, .img_med-fl:active,
+.img_small:hover, .img_small:focus,.img_small:active, .img_med:hover, .img_med:focus,
+.img_med:active {
+  transform: translateY(-10px);
+}
