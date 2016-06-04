@@ -223,15 +223,15 @@ var projectData = [
 
   {
     name: "Portfolio",
-    github: "",
-    website: "",
+    github: "https://github.com/chylaudes/portfolio",
+    website: "index.html",
     currentProj: true,
-    intro: "",
-    coverImage: "",
+    intro: "My porfolio site!  Self explanatory, but it's a place where I can show off my work and projects I've been working on.  I've been using a mix of jquery and javascript plugins to accomplish the design and feel of the site.",
+    coverImage: port+"port3.png",
     images: [],
-    responsibilities: [],
-    futureFeatures: [],
-    technologies: [],
+    responsibilities: ["Developed a Gulp workflow with BrowserSync, and gulp dependecies to minify code and compress images","Used a combination of jquery plugins like mmenu, scrollReveal.js, parallax.js", "Added css stylesheets from hover.css, and animate.css",  "Design was created with love by me!"],
+    futureFeatures: ["Making it mobile responsive"],
+    technologies: ["Underscore.js", "Javascript", "HTML5", "CSS", "Bootstrap", "SVG", "Gulp"],
     api: []
 
   }

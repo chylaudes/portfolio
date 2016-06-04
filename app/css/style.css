@@ -69,7 +69,7 @@ list-style: none;
 
 /* So there isn't a space btwn navbar and jumbotron */
 .parallax-window {
-  min-height:680px;
+  min-height:800px;
   background: transparent;
 }
 

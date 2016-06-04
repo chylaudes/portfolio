@@ -63,6 +63,5 @@ sr.reveal('.profile', { duration: 800 });
 sr.reveal('.who', { duration: 1000 }, 300);
 sr.reveal('.ski-scroll', { duration: 1000 }, 200);
 sr.reveal('.contact-scroll', { duration: 1000 }, 200);
-
-
+sr.reveal('figure', {duration: 500, viewFactor: 0.1});
 });//END OF document.ready
