@@ -462,7 +462,7 @@ p.intro::first-letter {
   text-decoration: none;
 }
 
-.github {
+.github, .git {
   background: #B67EAE;
 }
 .github:hover {
@@ -486,6 +486,10 @@ p.intro::first-letter {
 .angel:before {
   background: #808080;
 }
+
+.git:before {
+  background: #91638C;
+}
 .vsco {
   background: #AE995A;
 }
@@ -493,10 +497,10 @@ p.intro::first-letter {
   background: #9B7808;
 }
 .insta {
-  background: #A435B1;
+  background: #D72C73;
 }
 .insta:before {
-  background: #D72C73;
+  background: #9B084E;
 }
 
 ul.tech, ul.api {
