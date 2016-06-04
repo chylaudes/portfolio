@@ -52,5 +52,17 @@ $('.scrll').click(function(e) {
     }
   });
 
+//WELCOME = 680px
+//SKILLS =SCROLL TOP IS 2507
+//PROJECTS = SCROLL TOP  3149
+//FOOTER = 5287
+//LISTENING TO SCROLL
+
+window.sr = ScrollReveal();
+sr.reveal('.profile', { duration: 800 });
+sr.reveal('.who', { duration: 1000 }, 300);
+sr.reveal('.ski-scroll', { duration: 1000 }, 200);
+sr.reveal('.contact-scroll', { duration: 1000 }, 200);
+
 
 });//END OF document.ready
