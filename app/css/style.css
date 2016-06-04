@@ -125,7 +125,7 @@ list-style: none;
 
 .welcome {
   background-color:white;
-  height:800px;
+  height:820px;
 }
 
 .diamond {
@@ -166,6 +166,15 @@ list-style: none;
 
 .square-pad > h4{
   margin-bottom: 20px;
+}
+
+#triangle {
+  display:block;
+  width: 0;
+  height: 0;
+  border-top: 70px solid #A4C0FC;
+  border-left: 70px solid transparent;
+  float:right;
 }
 .image-overlay {
   background-image: url("../images/imageo.svg");

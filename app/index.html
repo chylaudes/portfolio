@@ -63,7 +63,6 @@
         <img class="profile" src="images/profile.JPG" alt="">
       </div>
       <div class="col-md-6 col-md-offset-1 square-pad">
-            <div class="row">
               <h2 class="header-welcome">about me</h2>
               <div class="pad">
                 <h4 class="who">Who I am:</h4>
@@ -73,13 +72,12 @@
                 <h4 class="who">Hobbies:</h4>
                 <p class="who">Aside from code, I love to play sports from swimming, basketball, and football.  I also love to craft DIYs and reading about interior design (used to study architecture).</p>
               </div>
-            </div>
-          </div>
+        </div>
       </div>
     </div>
     <!-- Example row of columns -->
+    <div id="triangle"></div>
 </section> <!-- end of welcome section -->
-
   <div class="parallax-window1">
     <div class="container-fluid no-pad">
       <img src="images/imageo.svg">
@@ -286,6 +284,16 @@
           <%})%>
           </ul>
         </div>
+        <% if (project.futureFeatures !== []){ %>
+          <div class=" col-xs-12 future">
+            <h3 class="add-mb">Stretch Goals</h3>
+            <ul class="respond">
+            <% _.each(project.futureFeatures, function(ff){ %>
+                <li><p> <%= ff %></p></li>
+            <%})%>
+            </ul>
+          </div>
+      <%  } %>
         <div class="col-xs-12 add_mt images-section">
           <% _.each(project.images, function(image){ %>
             <div class=<%= image.captionDiv %> >
