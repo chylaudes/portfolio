@@ -3,22 +3,18 @@ $(document).ready(function(){
   $('.parallax-window1').parallax({imageSrc: 'images/gingham1.svg', naturalWidth: 2008, naturalHeight: 1267});
   $("#my-menu").mmenu({
     "extensions": [
-     "pagedim-black", "theme-white"
+      "pagedim-black", "theme-white"
       ],
     offCanvas: {
-               position  : "left",
-               zposition : "next"
-            }
+      position: "left",
+      zposition: "next"
+      }
   });
-
   //HAMBURGER MENU
   var API = $("#my-menu").data("mmenu");
   $('#hamburger').click(function(){
-    console.log("CLICKED");
     API.open();
   });
-
-
 //UNDERSCORE TO INTERATE EACH MODAL WITH projectDATA
 _.each([0 , 1 , 2 , 3 , 4], function(el, i){
   var modalOptions = {
@@ -34,8 +30,6 @@ _.each([0 , 1 , 2 , 3 , 4], function(el, i){
   var resultingModal = modalTemplate({projects: projectData, project: projectData[i]});
   $('#aModal'+i).append(resultingModal);
 });
-
-
 //SMOOTH SCROLL:
 $('.scrll').click(function(e) {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -51,17 +45,11 @@ $('.scrll').click(function(e) {
       }
     }
   });
-
-//WELCOME = 680px
-//SKILLS =SCROLL TOP IS 2507
-//PROJECTS = SCROLL TOP  3149
-//FOOTER = 5287
-//LISTENING TO SCROLL
-
-window.sr = ScrollReveal();
-sr.reveal('.profile', { duration: 800 });
-sr.reveal('.who', { duration: 1000 }, 300);
-sr.reveal('.ski-scroll', { duration: 1000 }, 200);
-sr.reveal('.contact-scroll', { duration: 1000 }, 200);
-sr.reveal('figure', {duration: 500, viewFactor: 0.1});
+//scroll reveal.js
+  window.sr = ScrollReveal();
+  sr.reveal('.profile', { duration: 800 });
+  sr.reveal('.who', { duration: 1000 }, 300);
+  sr.reveal('.ski-scroll', { duration: 1000 }, 200);
+  sr.reveal('.contact-scroll', { duration: 1000 }, 200);
+  sr.reveal('figure', {duration: 500, viewFactor: 0.1});
 });//END OF document.ready
