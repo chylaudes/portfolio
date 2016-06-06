@@ -103,6 +103,7 @@ list-style: none;
   width: 49px;
   float: left;
 }
+
 .headline {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -276,7 +277,6 @@ list-style: none;
 .arrow_left {
   width:35px;
   transition: transform 100ms linear;
-
 }
 
 .arrow_left:hover {
@@ -292,7 +292,7 @@ list-style: none;
 #hamburger {
    display: block;
    position: fixed !important;
-   width: 50px;
+   width: 56px;
    padding: 5px 10px;
    margin-top: 40px;
 }
@@ -300,8 +300,8 @@ list-style: none;
    background: black;
    display: block;
    padding-bottom:1px;
-   height: 3px;
-   margin: 8px 0;
+   height: 5px;
+   margin: 6px 0;
 }
 
 html.mm-opened #hamburger span.top-bar {
@@ -457,6 +457,10 @@ html.mm-opened #hamburger span.middle-bar {
 }
 #pro{
   padding-top: 50px;
+}
+#pro:after {
+  content:'';
+  padding: 10px;
 }
 .respond li{
   list-style-type: disc;
@@ -690,7 +694,6 @@ figure:hover figcaption {
 .linkbox {
   display: inline-block;
   vertical-align: top;
-
 }
 div.mm-navbar {
   padding-top:23px;
@@ -731,7 +734,6 @@ ul.mm-listview {
 }
 ul.mm-listview li {
   margin-left: 30px;
-
 }
 .blue-nav{
   padding-top: 190px;
@@ -751,4 +753,8 @@ ul.mm-listview li {
 }
 .mm-panels>.mm-panel>.mm-navbar+.mm-listview {
     margin-top: -5px;
+}
+
+#hello p a {
+  color: #000;
 }

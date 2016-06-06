@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  setTimeout($('.headliner').addClass('animated fadeInUp'), 4000);
   $('.parallax-window').parallax({imageSrc: 'images/gingham1.svg', naturalWidth: 2008, naturalHeight: 1267});
   $('.parallax-window1').parallax({imageSrc: 'images/gingham1.svg', naturalWidth: 2008, naturalHeight: 1267});
   $("#my-menu").mmenu({
