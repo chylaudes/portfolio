@@ -57,7 +57,7 @@ var projectData = [
       },
 //Add the Place Profile page, and the Likes feature
     ],
-  responsibilities: ["Sole Full Stack Engineer of the Application, and worked with a Senior Dev to pair program with to best optimize the code base", "Programmed the front-end and the application's mobile-responsiveness, using jquery, bootstrap, css, and ajax", "Responsible for developing Facebook authentication feature, the forms using the Google Maps Library, the Likes feature, and the news feed", "Configured the admin interface using the RailsAdmin gem"],
+  responsibilities: ["Sole Full Stack Engineer of the Application, and worked with a Senior Dev to pair program with to best optimize the code base", "Work on the backend API for react developers to use for the native application", "Worked on the following feature, where a user can follow another perpective user if they are not facebook friends", "Programmed the front-end and the application's mobile-responsiveness, using jquery, bootstrap, css, and ajax", "Responsible for developing Facebook authentication feature, the forms using the Google Maps Library, the Likes feature, and the news feed", "Configured the admin interface using the RailsAdmin gem"],
   futureFeatures: [],
   technologies: ["Ruby on Rails", "JQUERY", "HTML5", "CSS", "AJAX", "SVG", "Bootstrap", "PostgreSQL", "Heroku"],
   api: []
